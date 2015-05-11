@@ -3,7 +3,7 @@
 you can use the class like this
 
 - $hash = new password();
-- $hash->Salt();
+- $hash->Salt(20);
 - $hash->hash();
 
 its returning an boolean
