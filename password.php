@@ -14,7 +14,7 @@
 class password {
 
     private $cost = 12;
-    private $password = 'jack';
+    public $password = '';
 
     public function Salt($number = 20) {
         $salt = base64_encode(mcrypt_create_iv($number, MCRYPT_DEV_URANDOM));
